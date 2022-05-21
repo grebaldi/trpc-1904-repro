@@ -1,0 +1,12 @@
+{
+  "name": "trpc-1904-repro",
+  "private": true,
+  "description": "Reproduction of the issue described in https://github.com/trpc/trpc/issues/1904.",
+  "scripts": {
+    "compile": "pnpm run -r --stream compile"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "typescript": "^4.6.4"
+  }
+}
